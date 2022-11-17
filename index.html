@@ -1,0 +1,73 @@
+<html>
+
+<head>
+  <title>Connect 4</title>
+  <link rel="stylesheet" href="assets/vendor/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/vendor/sweetalert2.min.css">
+  <link rel="stylesheet" href="assets/vendor/boxicons/boxicons.min.css">
+
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+  <div class="sidebar">
+    <h4>Bot Properties</h4>
+    <div>
+      <div class="form-check form-check-inline">
+        <input checked class="form-check-input" type="radio" name="heueristic" id="bot_1"
+          value="0">
+        <label class="form-check-label" for="bot_1">bot 1</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="heueristic" id="bot_2" value="1">
+        <label class="form-check-label" for="bot_2">bot 2</label>
+      </div>
+    </div>
+    <hr>
+    <div>
+      <h6>More properties</h6>
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <div class="input-group-text">
+            Max Depth
+          </div>
+        </div>
+        <input class="form-control" type="number" name="depth" min="1" max="9" value="4">
+      </div>
+
+      <div class="form-check form-check-inline">
+        <input checked class="form-check-input" type="radio" name="pruning" id="pruning" value="0">
+        <label class="form-check-label" for="pruning">No Pruning</label>
+      </div>
+
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="pruning" id="pruning" value="1">
+        <label class="form-check-label" for="pruning">By Pruning</label>
+      </div>
+    </div>
+
+    <div class="results">
+      <p>Turn: <span id="turn">—</span></p>
+      <p>Player Score: <span id="score1">—</span></p>
+      <p>Bot Score: <span id="score2">—</span></p>
+      <button disabled class="btn btn-primary mx-auto d-inline-block" id="tree">Show Tree</button>
+      <button class="btn btn-secondary mx-auto d-inline-block" id="tree" onclick="game.reset()">Reset</button>
+    </div>
+
+  </div>
+  <main>
+    <div id="board">
+    </div>
+  </main>
+
+
+  <script src="assets/vendor/jquery.js"></script>
+  <script src="assets/vendor/bootstrap.min.js"></script>
+  <script src="assets/vendor/sweetalert2.min.js"></script>
+
+  <script src="assets/classes/Board.js"></script>
+  <script src="assets/classes/Game.js"></script>
+  <script src="assets/main.js"></script>
+</body>
+
+</html>
