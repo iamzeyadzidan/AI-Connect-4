@@ -1,4 +1,4 @@
-# AI-Connect-4
+# AI Connect 4
 Simple connect 4 game
 
 - This assignment was issued by CSE351, Artificial Intelligence course staff in November 2022.
