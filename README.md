@@ -15,6 +15,6 @@ Simple connect 4 game
 - The AIs can use 2 heuristics rather than just one.
 
 Please be adviced that this repository is not mine alone, but is collaborated with:
-- Youssef Saber: github.com/yousefsaber0
+- Youssef Saber: github.com/youssefsaber0
 - Muhammed Moustafa: github link is yet to be provided
 - Abdelrahman El-Lawaty: github link is yet to be provided
