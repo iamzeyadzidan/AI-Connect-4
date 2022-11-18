@@ -17,4 +17,4 @@ Simple connect 4 game
 Please be adviced that this repository is not mine alone, but is collaborated with:
 - Youssef Saber: github.com/youssefsaber0
 - Muhammed Moustafa: github link is yet to be provided
-- Abdelrahman El-Lawaty: github link is yet to be provided
+- Abdelrahman El-Lawaty: github.com/lawaty
